@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc0a9478-9ce6-4f2a-802d-e6f48c0b2e79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addCart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addCartItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addPage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addProduct.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deleteCartItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getProduct.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/processCheckout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/updatePage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/updateProduct.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverless.yml" afterPath="$PROJECT_DIR$/serverless.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,8 +23,8 @@
       <file leaf-file-name="serverless.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/serverless.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="550">
+              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -283,12 +272,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521402991187</updated>
-      <workItem from="1521402992322" duration="2641000" />
+      <workItem from="1521402992322" duration="3039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2641000" />
+    <option name="totallyTimeSpent" value="3039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -421,8 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serverless.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="550">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding />
         </state>
       </provider>
