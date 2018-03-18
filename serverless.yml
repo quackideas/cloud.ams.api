@@ -1,0 +1,19 @@
+service: cloud-ams-api
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: us-east-1
+  stage: dev
+
+
+functions:
+  getPage:
+    handler: handler.getPage
+    events:
+      - http:
+          path: getPage
+          method: get
+          cors: true
+
+
