@@ -15,5 +15,19 @@ functions:
           path: getPage
           method: get
           cors: true
+  addPage:
+    handler: handler.addPage
+    events:
+      - http:
+          path: addPage
+          method: post
+          cors: true
+  updatePage:
+    handler: handler.updatePage
+    events:
+      - http:
+          path: updatePage
+          method: put
+          cors: true
 
 
