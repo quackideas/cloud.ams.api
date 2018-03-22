@@ -52,11 +52,11 @@ functions:
           path: updatePage
           method: put
           cors: true
-  events:
-    handler: handler.events
+  meetings:
+    handler: handler.meetings
     events:
       - http:
-          path: events
+          path: meetings
           method: get
           cors: true
 
