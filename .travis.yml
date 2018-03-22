@@ -1,9 +1,10 @@
 language: node_js
 node_js:
-    - node
+  - node
 cache:
     directories:
         - node_modules
 script:
-    - npm install -g serverless
-    - sls
+  - npm install -g serverless
+  - sls deploy --force
+skip_cleanup: true
