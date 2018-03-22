@@ -8,11 +8,15 @@ var AWS = require('aws-sdk');
 
 exports.handler = (event, context, callback) =>
 {
+    var _meetings = {
+      events: [{name: '2018 Chicago Assembly'}, {name: '2017 New Orleans Assembly'}, {name: '2018 San Francisco Assembly'}]
+    };
+
     callback(null, {
         "statusCode": 200,
         "headers": {
             "Access-Control-Allow-Origin": "*"
         },
-       "body" : "{\"test\": \"here\"}"
+       "body" : JSON.stringify(_meetings)
     });
 }
