@@ -7,7 +7,3 @@ cache:
 script:
     - npm install -g serverless
     - sls
-notifications:
-  email:
-    recipients:
-      - qnguyen@sujemma.com

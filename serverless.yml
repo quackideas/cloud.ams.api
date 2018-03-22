@@ -59,5 +59,3 @@ functions:
           path: meetings
           method: get
           cors: true
-
-
