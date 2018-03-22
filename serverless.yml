@@ -52,5 +52,12 @@ functions:
           path: updatePage
           method: put
           cors: true
+  events:
+    handler: handler.events
+    events:
+      - http:
+          path: events
+          method: get
+          cors: true
 
 

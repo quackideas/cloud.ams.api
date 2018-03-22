@@ -6,4 +6,8 @@ cache:
         - node_modules
 script:
     - npm install -g serverless
-    - sls deploy
+    - sls
+notifications:
+  email:
+    recipients:
+      - qnguyen@sujemma.com
