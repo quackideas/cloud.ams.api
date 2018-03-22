@@ -32,28 +32,28 @@ resources:
 
 functions:
   getPage:
-    handler: handler.getPage
+    handler: getPage.handler
     events:
       - http:
           path: getPage
           method: get
           cors: true
   addPage:
-    handler: handler.addPage
+    handler: addPage.handler
     events:
       - http:
           path: addPage
           method: post
           cors: true
   updatePage:
-    handler: handler.updatePage
+    handler: updatePage.handler
     events:
       - http:
           path: updatePage
           method: put
           cors: true
   meetings:
-    handler: handler.meetings
+    handler: meetings.handler
     events:
       - http:
           path: meetings
